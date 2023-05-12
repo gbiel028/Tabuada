@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Super Tabuada</h1>
+    <p>Escreva um número na caixa a seguir e te mostrarei a tabuada dele.</p>
+    <section id="entrada">
+        <form action="#" method="get">
+            <p>
+                <label for="fname">Nome: </label>
+                <input type="text" name="name" id="fname" placeholder="ex. João "> <br>
+
+                <label for="fnum1">Número: </label>
+                <input type="number" name="num" id="fnum1" placeholder="ex. 1 2 3 4 5"> <br>
+                
+                <label for="fnum2">Número: </label>
+                <input type="number" name="num" id="fnum2" placeholder="ex. 1 2 3 4 5 "> 
+                <input type="submit" value="Tabuada" formaction="javascript:tabuada()"> <br>
+
+            </p>
+        </form>
+    </section>
+    <section id="saida">
+        <p>Preencha os dados acima e aperte o botão.</p>
+    </section>
+
+    <script src="js/gerador.js"></script>
+</body>
+</html>
